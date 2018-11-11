@@ -1,0 +1,9 @@
+{
+    "schematics": {
+        "migration-01": {
+            "version": "7.0.0-beta.8",
+            "factory": "./07beta#update",
+            "description": "updates to v7 beta8"
+        }
+    }
+}

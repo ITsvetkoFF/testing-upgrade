@@ -1,0 +1,24 @@
+{
+  "name": "@itsv/the-one-to-update",
+  "version": "7.0.0-beta.8",
+  "description": "Lib that we want to update alongside with angular to v 7",
+  "main": "index.js",
+  "ng-update": {
+    "migrations": "./migrations/migration-collection.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/core": "7"
+  },
+  "dependencies": {
+    "@angular-devkit/schematics": "^0.8.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
